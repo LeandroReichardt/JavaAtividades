@@ -9,7 +9,7 @@ public class Atividade09 {
 		System.out.println("Digite a base : ");
 		float valor02 = sc.nextFloat();
 
-		float resultado = valor01%valor02;
+		float resultado = valor01*valor02;
 		System.out.printf("O resultado é : %.2f",resultado);
 		sc.close();
 	}
